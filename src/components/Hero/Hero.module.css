@@ -1,0 +1,137 @@
+@import '../../vars.css';
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;       /* flexible instead of 50px */
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 2rem;              /* adds spacing between text and image */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: clamp(2rem, 6vw, 4.5rem);   /* scales text between mobile & desktop */
+    font-weight: 900;
+    margin-bottom: 2rem;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255, 255, 255, 0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    font-family: var(--font-roboto);
+    margin-bottom: 2.5rem;
+    text-align: left;
+}
+
+.contact {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    border-radius: 100px;
+    font-weight: 600;
+    padding: 0.8rem 1.6rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact:hover {
+    background-color: var(--color-secondary);
+    transform: scale(1.05);
+}
+
+.heroImg {
+    width: 40%;
+    max-width: 450px;
+    height: auto;
+    z-index: 1;
+    animation: floating 3s infinite ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+
+.topBlur,
+.bottomBlur {
+    position: absolute;
+    border-radius: 760px;
+    background-color: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.topBlur {
+    width: 40vw;
+    height: 40vw;
+    min-width: 200px;
+    min-height: 200px;
+    top: -80px;
+    left: -10vw;
+}
+
+.bottomBlur {
+    width: 50vw;
+    height: 40vw;
+    min-width: 200px;
+    min-height: 200px;
+    top: 200px;
+    right: 5vw;
+}
+
+/* Tablet */
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .heroImg {
+        width: 70%;
+        max-width: 350px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heroImg {
+        width: 90%;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .contact {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+}

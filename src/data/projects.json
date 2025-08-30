@@ -1,0 +1,20 @@
+[
+    {
+        "title":"AI based traffic Management System",
+        "image":"project.png",
+        "description":"Project to adjust the traffic light timings according to the traffic density in each lane.",
+        "skills":["Machine Learning","Python", "YOLO", "Raspberry Pi"]
+    },
+    {
+        "title":"Product Selling Website with Django",
+        "image":"project.png",
+        "description":"A web application having admin panel and admin can add or delete the products with valid user authentication and authorization.",
+        "skills":["Django","Python", "MySQL", "HTML"]
+    },
+    {
+        "title":"Expense Visualizer",
+        "image":"project.png",
+        "description":"A web interface where user can upload data in .csv or.xlsx format and will see the graph for that data.",
+        "skills":["Machine Learning","Python", "HTML", "Javascript"]
+    }
+]
