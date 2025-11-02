@@ -19,8 +19,8 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl('serverIcon.png')} alt="Server Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
-                            <p>I am working with python backend frameworks like FastAPI, Django and Flask.</p>
+                            <h3>Full Stack Developer</h3>
+                            <p>I am working with React for frontend and python backend frameworks like FastAPI, Django and Flask.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>

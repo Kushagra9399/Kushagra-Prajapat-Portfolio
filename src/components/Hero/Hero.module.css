@@ -32,7 +32,7 @@
 
 .description {
     font-size: clamp(1rem, 3vw, 1.8rem);
-    font-family: var(--font-roboto);
+    font-family: "Cambria", serif;
     margin-bottom: 2.5rem;
     text-align: left;
 }

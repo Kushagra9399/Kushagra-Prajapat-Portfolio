@@ -1,20 +1,44 @@
 [
     {
+        "title":"AutoML Model Training",
+        "image":"project.png",
+        "description":"A real-time web application where users can upload their datasets and get the best model trained on it using AutoML techniques and can test the model and see visualizations and evaluation metrics.",
+        "skills":["Machine Learning","FastAPI", "React", "matplotlib"],
+        "link":"https://github.com/Kushagra9399/AutoML-Model-Training"
+    },
+    {
+        "title":"Reasoning Checker",
+        "image":"project.png",
+        "description":"A web application for students and teachers to create quiz and solve them along with providing reasoning to the solution which is checked by LLM.",
+        "skills":["FastAPI","React", "MongoDB", "LLM", "Gemini API"],
+        "link":"https://github.com/Kushagra9399/SIH2025"
+    },
+    {
         "title":"AI based traffic Management System",
         "image":"project.png",
         "description":"Project to adjust the traffic light timings according to the traffic density in each lane.",
-        "skills":["Machine Learning","Python", "YOLO", "Raspberry Pi"]
+        "skills":["Machine Learning","Python", "YOLO", "Raspberry Pi"],
+        "link":"https://github.com/Kushagra9399/AI-Based-Traffic-Management-System"
     },
     {
         "title":"Product Selling Website with Django",
         "image":"project.png",
         "description":"A web application having admin panel and admin can add or delete the products with valid user authentication and authorization.",
-        "skills":["Django","Python", "MySQL", "HTML"]
+        "skills":["Django","Python", "MySQL", "HTML"],
+        "link":"https://github.com/Kushagra9399/Product-Selling-Website-using-Django"
     },
     {
         "title":"Expense Visualizer",
         "image":"project.png",
         "description":"A web interface where user can upload data in .csv or.xlsx format and will see the graph for that data.",
-        "skills":["Machine Learning","Python", "HTML", "Javascript"]
+        "skills":["Machine Learning","Python", "HTML", "Javascript"],
+        "link":"https://github.com/Kushagra9399/Expense-Visualizer"
+    },
+    {
+        "title":"Portfolio Website",
+        "image":"project.png",
+        "description":"A personal portfolio website to showcase my skills, projects and resume.",
+        "skills":["ReactJS","JavaScript", "HTML", "CSS"],
+        "link":"https://github.com/Kushagra9399/Kushagra-Prajapat-Portfolio"
     }
 ]
